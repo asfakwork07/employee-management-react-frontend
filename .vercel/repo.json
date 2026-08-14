@@ -1,0 +1,11 @@
+{
+  "remoteName": "origin",
+  "projects": [
+    {
+      "id": "prj_0A1DBYiJ96Q6d4qjGJuX4VLmqNIe",
+      "name": "employee-management-react-frontend",
+      "directory": ".",
+      "orgId": "team_qvGmPDOHU2B8QiEDqbQOQgLn"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="120" y1="80" x2="980" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="0.55" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#9333EA"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="40" y1="40" x2="280" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="0.55" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(55,55)" filter="url(#shadow)">
+    <circle cx="120" cy="120" r="102" fill="#EEF2FF"/>
+    <path d="M30 135C34 70 78 28 140 20C95 6 47 20 20 56C-6 92 -4 144 25 177C48 203 85 216 121 207C75 206 38 176 30 135Z" fill="url(#g2)" opacity="0.95"/>
+    <path d="M54 176C99 207 167 205 215 160C179 217 102 242 47 210C20 194 3 168 0 137C10 154 28 168 54 176Z" fill="#7C3AED" opacity="0.9"/>
+
+    <!-- people -->
+    <circle cx="120" cy="84" r="27" fill="#2563EB"/>
+    <circle cx="76" cy="94" r="20" fill="#3B82F6"/>
+    <circle cx="164" cy="94" r="20" fill="#4F46E5"/>
+    <path d="M75 160C77 125 95 109 120 109C145 109 163 125 165 160V174H75V160Z" fill="url(#g1)"/>
+    <path d="M43 158C45 132 57 117 76 117C90 117 102 124 108 137C100 148 96 161 96 174H43V158Z" fill="#60A5FA"/>
+    <path d="M144 137C150 124 162 117 176 117C195 117 207 132 209 158V174H144C144 160 151 148 144 137Z" fill="#6366F1"/>
+  </g>
+
+  <!-- EMS wordmark -->
+  <g transform="translate(340,82)">
+    <text x="0" y="120"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="142"
+      font-weight="800"
+      letter-spacing="-8"
+      fill="url(#g1)">EMS</text>
+    <text x="4" y="176"
+      font-family="Inter,Segoe UI,Arial,sans-serif"
+      font-size="26"
+      font-weight="600"
+      letter-spacing="6"
+      fill="#64748B">EMPLOYEE MANAGEMENT SYSTEM</text>
+
+    <rect x="4" y="205" width="720" height="4" rx="2" fill="url(#g1)" opacity="0.25"/>
+  </g>
+</svg>
